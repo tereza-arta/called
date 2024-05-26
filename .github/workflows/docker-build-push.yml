@@ -30,4 +30,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{secrets.HUB_UNAME}}/go-app:latest
+          tags: ${{secrets.REGISTRY_USERNAME}/go-app:latest
